@@ -1,0 +1,110 @@
+.titulo {
+    color: aquamarine; /* le da color al texto*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* define el tipo de escritura*/
+    font-size: 700; /*tamaño de las letras*/
+    font-style: normal; /*alshile no se como explicarlo*/
+    font-weight: bold;
+    text-align: center; /*centra el texto*/
+    text-transform: uppercase; /*define la 
+    tipografia en mayuscula*/
+    background-color: gray; /* Fondo gris */
+    border-radius: 8px; /* Bordes redondeados */
+    /* Efecto de sombra para simular el brillo */
+text-shadow: 
+0 0 5px #a2c2e2, /* Brillo cercano */
+0 0 10px #a2c2e2, /* Brillo un poco más expandido */
+0 0 15px #a2c2e2, /* Brillo medio */
+0 0 20px #80c8f7, /* Sombra de color adicional */
+0 0 30px #80c8f7, /* Brillo grande */
+0 0 40px #80c8f7; /* Sombra difusa */
+
+}
+
+.introduccion {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+    background-color: rgb(28, 60, 92);
+    border-radius: 20px;
+}
+
+.resumen {
+    color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-transform: none;
+    background-color: rgb(30, 55, 80);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: rgb(28, 60, 92); /*cambia el color total del fondo de la pag web*/
+}
+
+.imagenFlor {
+    display: block; /* Asegura que la imagen sea tratada como un bloque para centrarla */
+    margin: 20px auto; /* Centra la imagen horizontalmente y le da un margen superior e inferior */
+    max-width: 80%; /* Ajusta la imagen al 80% del ancho del contenedor para que no ocupe demasiado espacio */
+    border: 4px solid #d3d3d3; /* Borde gris claro que combina bien con el fondo */
+    border-radius: 12px; /* Bordes redondeados para darle un aspecto armonioso */
+    justify-content: center;
+}
+
+.imagenFlor1 {
+    display: flex; /* Configura el contenedor como flex */
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
+    flex-direction: column; /* Coloca los elementos en columna si hay más de uno */
+    width: 80%; /* Reduce el ancho para evitar que ocupe todo */
+    height: auto; /* Permite que la altura se ajuste al contenido */
+    padding: 20px; /* Espacio interno */
+    margin: 20px auto; /* Centra la caja en la página */
+    background-color: rgb(149, 202, 149); /* Fondo verde claro */
+    border: 2px solid #d3d3d3; /* Agrega un borde para diferenciación */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    overflow-wrap: break-word; /* Evita que las palabras largas desborden */
+}
+
+
+.enlace {
+    color:rgb(143, 62, 139);
+    
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.text {
+    color:#a2c2e2;
+    text-align: center;
+    font-style: italic;
+}
+
+.importancia {
+    display: flex; /* Configura el contenedor como flex */
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
+    flex-direction: column; /* Coloca los elementos en columna si hay más de uno */
+    width: 80%; /* Reduce el ancho para un diseño más limpio */
+    height: auto; /* Permite que la altura se ajuste al contenido */
+    padding: 20px; /* Espacio interno */
+    margin: 20px auto; /* Centra la caja en la página */
+    background-color: rgb(38, 74, 99); /* Fondo azul oscuro */
+    border: 2px solid #d3d3d3; /* Agrega un borde para diferenciación */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    color: white; /* Texto blanco para mejor contraste */
+    overflow-wrap: break-word; /* Evita que las palabras largas desborden */
+}
+
+.textoInicial {
+    color:#80c8f7;
+}

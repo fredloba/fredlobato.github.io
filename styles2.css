@@ -1,0 +1,84 @@
+.datos{
+    color:aquamarine;
+    font-size: 80px; /*tamaño de las letras*/
+    font-style: normal; /*alshile no se como explicarlo*/
+    font-weight: bold;
+    text-align: center; /*centra el texto*/
+    text-transform: uppercase; /*define la 
+    tipografia en mayuscula*/
+    background-color: rgb(150, 117, 241); /* Fondo gris */
+}
+
+img {
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    display: block; /* Asegura que la imagen sea tratada como un bloque para centrarla */
+    margin: 20px auto; /* Centra la imagen horizontalmente y le da un margen superior e inferior */
+    max-width: 80%; /* Ajusta la imagen al 80% del ancho del contenedor para que no ocupe demasiado espacio */
+    border: 4px solid #d3d3d3; /* Borde gris claro que combina bien con el fondo */
+    border-radius: 12px; /* Bordes redondeados para darle un aspecto armonioso */
+    justify-content: center;
+}
+
+.datos2 {
+    text-align: center;
+    font-size: 27px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 
+    0 0 5px #a2c2e2, /* Brillo cercano */
+    0 0 10px #a2c2e2, /* Brillo un poco más expandido */
+    0 0 15px #a2c2e2, /* Brillo medio */
+    0 0 20px #80c8f7, /* Sombra de color adicional */
+    0 0 30px #80c8f7, /* Brillo grande */
+    0 0 40px #80c8f7; /* Sombra difusa */
+}
+.datos3 {
+    text-align: center;
+    font-size: 27px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 
+    0 0 5px #a2c2e2, /* Brillo cercano */
+    0 0 10px #a2c2e2, /* Brillo un poco más expandido */
+    0 0 15px #a2c2e2, /* Brillo medio */
+    0 0 20px #80c8f7, /* Sombra de color adicional */
+    0 0 30px #80c8f7, /* Brillo grande */
+    0 0 40px #80c8f7; /* Sombra difusa */
+}
+
+.datos4 {
+    text-align: center;
+    font-size: 27px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 
+    0 0 5px #a2c2e2, /* Brillo cercano */
+    0 0 10px #a2c2e2, /* Brillo un poco más expandido */
+    0 0 15px #a2c2e2, /* Brillo medio */
+    0 0 20px #80c8f7, /* Sombra de color adicional */
+    0 0 30px #80c8f7, /* Brillo grande */
+    0 0 40px #80c8f7; /* Sombra difusa */
+}
+
+body {
+background-color: #416680; 
+}
+
+.datos5 {
+    text-align: center;
+    font-size: 27px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 
+    0 0 5px #a2c2e2, /* Brillo cercano */
+    0 0 10px #a2c2e2, /* Brillo un poco más expandido */
+    0 0 15px #a2c2e2, /* Brillo medio */
+    0 0 20px #80c8f7, /* Sombra de color adicional */
+    0 0 30px #80c8f7, /* Brillo grande */
+    0 0 40px #80c8f7; /* Sombra difusa */
+}
+
+.enlace {
+    text-align: center;
+    font-size: 30px;
+}
